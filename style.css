@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 2em 1em 5em 1em;
+    height: 100vh;
+    background-image: url(/images/mobile/image-hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav ul {
+    display: none;
+}
+
+.hambuger {
+    display: block;
+}
+
+/* .header {
+    margin: 1em 1em;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-text {
+    margin: 10em 0;
+}
+.dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -8rem;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    float: left;
+    display: block;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding: 0.5em;
+    border: 2px white solid;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.container {
+    margin: 1em 1em;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.container h2 {
+    padding: 1em 0;
+}
+
+.creations {
+    color: #fff;
+    height: 100%;
+    margin: 1em 1em;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.creations div {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.creations h2 {
+    color: black;
+    padding-bottom: 1em ;
+}
+
+.creations a {
+    border: 1.5px solid black;
+    font-size: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    padding: 0.5em 2em;
+}
+
+.creations-1,
+.creations-2,
+.creations-3,
+.creations-5,
+.creations-4,
+.creations-6,
+.creations-7,
+.creations-8 {
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    background-position: center;
+    background-size: cover;
+}
+
+.creations-1 p,
+.creations-2 p,
+.creations-3 p,
+.creations-5 p,
+.creations-4 p,
+.creations-6 p,
+.creations-7 p,
+.creations-8 p {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-right: 8em;
+} 
+
+.creations-1 {
+    background-image: url(/images/mobile/image-deep-earth.jpg);
+    position: relative;
+}
+
+.creations-2 {
+    background-image: url(/images/mobile/image-night-arcade.jpg);
+    position: relative;
+}
+.creations-3 {
+    background-image:url(/images/mobile/image-soccer-team.jpg) ;
+    position: relative;
+}
+.creations-4 {
+    background-image: url(/images/mobile/image-grid.jpg);
+    position: relative;
+}
+.creations-5 {
+    background-image: url(/images/mobile/image-from-above.jpg);
+    position: relative;
+}
+.creations-6 {
+    background-image: url(/images/mobile/image-pocket-borealis.jpg);
+    position: relative;
+}
+.creations-7 {
+    background-image: url(/images/mobile/image-curiosity.jpg);
+    position: relative;
+}
+.creations-8 {
+    background-image: url(/images/mobile/image-fisheye.jpg);
+    position: relative;
+}
+
+
+
+footer {
+    color: #fff;
+    background-color: black;
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em 0;
+}
+footer ul li {
+    padding: 0.5em 0;
+}
+
+
+.footer__icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1em 0;
+}
+
+.f-part-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5em 0;
+}
+
+
+@media (min-width: 400px) {
+    nav {
+        margin: 0;
+        padding: 2em 1em 5em 1em;
+        height: 100vh;
+        background-image: url(/images/desktop/image-hero.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #fff;
+        margin: 2em 8em 2em 2em;
+        padding: 0.5em;
+        border: 2px white solid;
+        text-transform: uppercase;
+        font-size: 4rem;
+        text-align: left;
+    }
+
+    .hambuger {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .navbar ul li {
+        color: #fff;
+        margin: 0 1.5em;
+    }
+    .container-img {
+        width: 60%;
+    }
+
+    .container-text {
+        background-color: #fff;
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+        width: 50%;
+        padding: 5rem 3rem 0 3rem;
+        text-align: left;
+    }
+
+    .container-text h2 {
+        font-size: 3rem;
+    }
+
+    .container {
+        display: flex;
+        margin: 5em;
+        position: relative;
+    }
+
+    .creations-1 {
+        background-image: url(/images/desktop/image-deep-earth.jpg);
+        position: relative;
+    }
+    
+    .creations-2 {
+        background-image: url(/images/desktop/image-night-arcade.jpg);
+        position: relative;
+    }
+    .creations-3 {
+        background-image:url(/images/desktop/image-soccer-team.jpg) ;
+        position: relative;
+    }
+    .creations-4 {
+        background-image: url(/images/desktop/image-grid.jpg);
+        position: relative;
+    }
+    .creations-5 {
+        background-image: url(/images/desktop/image-from-above.jpg);
+        position: relative;
+    }
+    .creations-6 {
+        background-image: url(/images/desktop/image-pocket-borealis.jpg);
+        position: relative;
+    }
+    .creations-7 {
+        background-image: url(/images/desktop/image-curiosity.jpg);
+        position: relative;
+    }
+    .creations-8 {
+        background-image: url(/images/desktop/image-fisheye.jpg);
+        position: relative;
+    }
+
+    .creations-flex {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .creations-flex > .images {
+        display: flex; 
+        flex-flow: row ;
+        justify-content:center;
+    }
+
+    .creations-1,
+    .creations-2,
+    .creations-3,
+    .creations-5,
+    .creations-4,
+    .creations-6,
+    .creations-7,
+    .creations-8 {
+    width: 20vw;
+    height: 80vh;
+    margin: 1rem;
+    background-position: top;
+    background-size: cover;
+
+    }
+
+    .creations-1 p,
+    .creations-2 p,
+    .creations-3 p,
+    .creations-5 p,
+    .creations-4 p,
+    .creations-6 p,
+    .creations-7 p,
+    .creations-8 p {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    text-align: left;
+    font-size: 1.8rem;
+    padding-right: 2em;
+
+    }
+
+    .creations a {
+        order: -1/;
+    }
+
+    footer {
+        margin: 0;
+        padding:1em 3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+
+    
+    .footer__icons{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding:0;
+    }
+
+    
+
+    .footer__nav ul {
+        display: flex;
+    }
+
+    .f-part-1 {
+        margin: 0;
+        padding: 0;
+        align-items: right;
+    }
+
+    .f-part-2 {
+        align-items: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-align:left;
+    }
+    footer ul li {
+        margin:0 2rem 0 0;
+        padding-bottom: 0;
+    }
+
+    .footer__nav {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .footer-logo {
+        padding: 0;
+        margin: 0;
+    }
+
+    
+
+
+    
+}
